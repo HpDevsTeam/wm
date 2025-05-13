@@ -1,0 +1,194 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+body{
+    color: white;
+    background-image: url(images/background/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.logotipo{
+    margin: auto;
+}
+
+.logotipo img{
+    width: 100px;
+}
+
+.tex-header{
+    margin: auto;
+}
+
+.nav-header{
+   margin: auto;
+}
+
+.nav-header li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-header a{
+    padding: 16px 10px;
+    color: red;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-header a:hover{
+    background-color: white;
+    color: rgba(255, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/*Start main*/
+ .bloco-venda{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.685);
+    border: 2px solid white;
+ }
+
+ .bloco-venda h3{
+    margin: 20px auto;
+ }
+
+ .bloco-venda button{
+    background-color: white;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+ }
+
+ .bloco-venda button:hover{
+    opacity: 0.8;
+ }
+
+ .bloco-venda a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+ }
+
+ .bloco-descricao{
+    width: 300px;
+    margin: auto;
+ }
+
+ .bloco-descricao h3{
+    padding: 20px 0px;
+ }
+
+  .bloco-sobre{
+    text-align: center;
+    margin: 50px 0px;
+  }
+
+ .bloco-sobre p{
+    margin: 20px 50px;
+    text-align: justify;
+ }
+
+ .bloco-previas{
+    width: 800px;
+    text-align: center;
+    margin: 50px auto;
+ }
+
+ .bloco-previas img{
+    width: 300px;
+ }
+
+
+/*End main*/
+
+/*Start Area do rodapé*/
+footer{
+    background-color: black;
+}
+
+footer p{
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 0px 30px;
+}
+
+.nav-footer{
+   display: flex;
+   justify-content: center;
+}
+
+.nav-footer li{
+    list-style: none;
+}
+
+.nav-footer a{
+    display: block;
+    color: red;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.nav-footer a:hover{
+    opacity: 0.6;
+}
+
+.nav-footer h4{
+    text-align: center;
+}
+
+.bloco{
+    padding: 40px;
+}
+
+.bloco img{
+    width: 50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+ }
+
+/*End Area do rodapé*/
+
+
+@media screen and (max-width: 800px) {
+    header{
+        display: block;
+        text-align: center;
+    }
+
+    .nav-header{
+        padding: 30px 0px;
+    }
+
+    .nav-footer{
+        display: block;
+        text-align: center;
+        width: 300px;
+        margin: auto;
+    }
+
+    .nav-footer a{
+        display: block;
+        color: red;
+        padding: 10px 0px;
+    }
+    .bloco{
+        padding: 20px 0px;
+    }
+}
